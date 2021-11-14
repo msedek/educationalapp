@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">G10 AppAcademia</string>
+    <!--
+    Agregar nuevos strings
+    En clase
+    -->
+    <string name="str_sesion01">Sesión 01</string>
+    <string name="str_sesion02">Sesión 02</string>
+    <string name="str_sesion03">Sesión 03</string>
+    <string name="str_sesion04">Sesión 04</string>
+    <string name="str_sesion05">Sesión 05</string>
+    <string name="str_sesion06">Sesión 06</string>
+    <string name="str_sesion07">Sesión 07</string>
+    <string name="str_sesion08">Sesión 08</string>
+    <string name="str_asistio">Asistió</string>
+    <string name="str_reiniciar">Reiniciar</string>
+    <string name="str_calcular">Calcular</string>
+
+</resources>

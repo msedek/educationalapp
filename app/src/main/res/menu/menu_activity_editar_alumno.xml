@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accion_grabar"
+        app:showAsAction="always"
+        android:title="Grabar"
+        android:icon="@mipmap/ic_done_white_32dp_1x" />
+
+    <item
+        android:id="@+id/accion_eliminar"
+        app:showAsAction="always"
+        android:title="Reiniciar"
+        android:icon="@mipmap/ic_delete_white_36dp"/>
+
+</menu>

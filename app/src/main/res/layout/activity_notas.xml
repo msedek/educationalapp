@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_notas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.academiasmoviles.appacademia.NotasActivity">
+    
+    <ScrollView
+        android:id="@+id/scr_sesiones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="110dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lbl_sesion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_sesion01"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion1"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio1"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/lbl_sesion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nota1"
+                android:text="@string/str_sesion02"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion2"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio2"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/lbl_sesion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nota2"
+                android:text="@string/str_sesion03"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion3"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio3"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/lbl_sesion4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nota3"
+                android:text="@string/str_sesion04"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion4"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio4"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/lbl_sesion5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nota4"
+                android:text="@string/str_sesion05"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion5"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio5"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/lbl_sesion6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nota5"
+                android:text="@string/str_sesion06"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion6"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio6"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/lbl_sesion7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nota6"
+                android:text="@string/str_sesion06"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio7"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion7"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio7"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/lbl_sesion8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nota7"
+                android:text="@string/str_sesion08"/>
+
+            <CheckBox
+                android:id="@+id/chb_asistio8"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_sesion8"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_asistio"/>
+
+            <EditText
+                android:id="@+id/edt_nota8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chb_asistio8"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:enabled="false" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rel_opciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_reiniciar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_reiniciar" />
+
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/btn_reiniciar"
+            android:layout_alignParentRight="true"
+            android:text="@string/str_calcular" />
+
+        <TextView
+            android:id="@+id/lbl_promedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_calcular"
+            android:text="Promedio" />
+
+        <EditText
+            android:id="@+id/edt_promedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_promedio"
+            android:gravity="center"
+            android:hint="0"
+            android:enabled="false" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
